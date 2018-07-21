@@ -6,7 +6,7 @@ var xml = onix.create({
         person: "Samy Pesse",
         email: "samy@gitbook.com"
     },
-    suplier: {
+    supplier: {
         name: "ePubDirect",
         availabilityCode: "IP"
     },
@@ -55,5 +55,3 @@ console.log(xml);
 
 var def = onix.parse(xml);
 console.log(def);
-
-

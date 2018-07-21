@@ -10,9 +10,10 @@
         "node": ">=0.6"
     },
     "dependencies": {
+        "express": "^4.16.3",
         "lodash": "^3.9.3",
-        "xml-schema": "git://github.com/christianroy/xml-schema.git",
-        "subjects-utils": "0.0.1"
+        "subjects-utils": "0.0.1",
+        "xml-schema": "git://github.com/christianroy/xml-schema.git"
     },
     "devDependencies": {
         "mocha": "2.2.1",
